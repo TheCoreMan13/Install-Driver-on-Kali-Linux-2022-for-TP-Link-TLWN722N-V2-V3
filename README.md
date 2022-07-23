@@ -33,36 +33,36 @@ If you are are learn ethical hacking and using Kali 2022 x64 and TP-Link TL-WN72
 
 # Enable monitore mode 
 
-1. sudo ifconfig <interface name> down
+1. sudo ifconfig (interface name) down
 2. sudo airmon-ng check kill (Don't be worry if you louse internet connection)
-3. sudo iwconfig <interface name> mode monitor 
-4. sudo inconfig <interface name> up
+3. sudo iwconfig (interface name) mode monitor 
+4. sudo inconfig (interface name) up
 
 # Test monitor mode
 
-1. sudo airodump-ng <interface name>
+1. sudo airodump-ng (interface name)
 2. Ctrl + C when you are done
 
 
 # Disable monitor mode 
 
-1. sudo ifconfig <interface name> down
-2. sudo iwconfig <interface name> mode managed
-3. sudo ifconfig <interface name> up
+1. sudo ifconfig (interface name) down
+2. sudo iwconfig (interface name) mode managed
+3. sudo ifconfig (interface name) up
 4. sudo service NetworkManager start (If you want to have internet connection againe)
 
 # Testing Packet Injection (It works only in monitor mode)
 
 1. sudo airmon-ng check kill
-2. sudo aireplay-ng --test <interface name>
+2. sudo aireplay-ng --test (interface name)
 
 # Change MAC adress
 
 1. sudo macchanger -s <interface name>
-2. ifconfig <interface name> down
-3. macchanger -r <interface name> (For random MAC adress) or sudo macchanger -m <specific MAC address> <interface name> (For a specific MAC adress)
-4. ifconfig <interface name> up
-5. macchanger -s <interface name>
+2. ifconfig (interface name) down
+3. macchanger -r (interface name) (For random MAC adress) or sudo macchanger -m (specific MAC address) (interface name) (For a specific MAC adress)
+4. ifconfig (interface name) up
+5. macchanger -s (interface name)
 
 
 
