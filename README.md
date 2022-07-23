@@ -1,7 +1,7 @@
 # Install-Driver-on-Kali-Linux-2022-for-TP-Link-TLWN722N-V2-V3
 
 # DISCLAMER
-This repository is only for educational purposes and I'm not responsible for what you do with this informations
+This repository is ONLY FOR EDUCATIONAL PURPOSE !!!
 
 # Description
 RealTek RTL8188eus WiFi driver with monitor mode, frame injection support and change its mac address
@@ -68,9 +68,3 @@ If you are are learn ethical hacking and using Kali 2022 x64 and TP-Link TL-WN72
 3. macchanger -r (interface name) (For random MAC adress) or sudo macchanger -m (specific MAC address) (interface name) (For a specific MAC adress)
 4. ifconfig (interface name) up
 5. macchanger -s (interface name)
-
-
-
-
-
-
