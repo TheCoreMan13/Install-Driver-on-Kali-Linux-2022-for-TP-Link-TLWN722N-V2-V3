@@ -20,7 +20,7 @@ If you are are learn ethical hacking and using Kali 2022 x64 and TP-Link TL-WN72
 8. exit
 9. sudp ./dkms-install.sh
 10. reboot
-11. Enjoy sniffing and injecting
+11. Enjoy!
 
 
 # How to fix "unable to locate package linux headers" and enable mode monitor in TP-LINK TL-WN722N V2/V3
@@ -33,7 +33,9 @@ If you are are learn ethical hacking and using Kali 2022 x64 and TP-Link TL-WN72
 - deb http://http.kali.org/kali kali-experimental main contrib non-free
 
 3.Save & Exit 
+
 4. sudo apt-get install linux-headers-$(uname -r)
+
 5. Enjoy!
 
 # Enable monitore mode 
