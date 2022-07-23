@@ -32,7 +32,7 @@ If you are are learn ethical hacking and using Kali 2022 x64 and TP-Link TL-WN72
 - deb http://http.kali.org/kali kali-last-snapshot main contrib non-free
 - deb http://http.kali.org/kali kali-experimental main contrib non-free
 
-3.Save & Exit 
+3. Save & Exit 
 
 4. sudo apt-get install linux-headers-$(uname -r)
 
