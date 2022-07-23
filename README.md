@@ -1,4 +1,9 @@
 # Install-Driver-on-Kali-Linux-2022-for-TP-Link-TLWN722N-V2-V3
+
+# DISCLAMER
+This repository is only for educational purposes and I'm not responsible for what you do with this informations
+
+#Description
 RealTek RTL8188eus WiFi driver with monitor mode, frame injection support and change its mac address
 
 
