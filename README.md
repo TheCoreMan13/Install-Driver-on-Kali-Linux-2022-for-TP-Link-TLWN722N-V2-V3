@@ -43,7 +43,7 @@ If you are are learn ethical hacking and using Kali 2022 x64 and TP-Link TL-WN72
 1. sudo ifconfig (interface name) down
 2. sudo airmon-ng check kill (Don't be worry if you louse internet connection)
 3. sudo iwconfig (interface name) mode monitor 
-4. sudo inconfig (interface name) up
+4. sudo ifconfig (interface name) up
 
 # Test monitor mode
 
